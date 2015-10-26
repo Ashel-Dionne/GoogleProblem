@@ -42,6 +42,7 @@ public class Google_Problem {
 	     System.out.println("The Current Star Rating:"+Software_Testing.ST_Rating(driver).getAttribute("aria-label"));
 	     System.out.println("The Review Count: "+Software_Testing.ST_ReviewsStats(driver).getText());
 	    
+	     wait.until(ExpectedConditions.urlToBe("https://play.google.com/store/apps/details?id=your.anmatesting.namespace"));
 	     driver.quit();
 	 }
 
