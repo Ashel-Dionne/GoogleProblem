@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 
-abstract class Automation {
+abstract class Google {
 	 
 	 static WebDriver driver;
 		
@@ -24,7 +24,7 @@ abstract class Automation {
 	 
 	 
 
-public class ModuleDrivenGoogle extends Automation {
+public class ModuleDriven extends Google {
 
 	public static void startDriver() {
 		driver = new FirefoxDriver();
